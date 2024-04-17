@@ -1,0 +1,91 @@
+body {
+    background: url("istockphoto-513106144-2048x2048-transformed.jpeg") no-repeat top center fixed;
+    background-size: cover;
+}
+
+div::before {
+    content: " ברוך הבא חבר";
+    text-align: center;
+    font: 20pt Arial;
+    font-weight: bold;
+    color: #ffffff;
+    background-color:#363F59;
+    padding: 5px;
+    display:block;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    width: 560px;
+}
+
+div {
+    background-color: #EFDBBA ;
+    margin: 100px auto 100px auto;
+    padding: 10px;
+    width: 550px;
+    min-height:300px;
+}
+
+
+a {
+    color: #273747;
+    text-decoration: none;
+    font-weight: bold;
+    font: 11pt Helvetica;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+span.foco {
+    font-weight: bold;
+    color: #7e050c;
+}
+h1{
+    color: rgb(70, 9, 238);
+    text-align: center;
+    font: 20pt arial bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+h2{
+    color: rgb(70, 9, 238);
+    text-align: left;
+    font: 17pt Times bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+h3{
+    color: #d88b48;
+    text-align: left;
+    font: 15pt arial ;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+
+p{
+    color: rgb(70, 9, 238);
+    text-align: center;
+    font: 15pt arial bold;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(0, 0, 0);
+}
+span{
+    font: 10pt arial bold;
+    color: rgb(70, 9, 238)
+
+
+}
+input{
+    font-size: 14pt;
+    align-content: center ;
+
+}
+
+button{
+    margin-left: 500px;
+    padding: 5px;
+    font-size: 10px;
+
+    }
